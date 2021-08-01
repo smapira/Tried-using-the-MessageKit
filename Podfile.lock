@@ -1,0 +1,26 @@
+PODS:
+  - Fakery (5.1.0)
+  - InputBarAccessoryView (5.3.1):
+    - InputBarAccessoryView/Core (= 5.3.1)
+  - InputBarAccessoryView/Core (5.3.1)
+  - MessageKit (3.6.1):
+    - InputBarAccessoryView (~> 5.3.1)
+
+DEPENDENCIES:
+  - Fakery
+  - MessageKit
+
+SPEC REPOS:
+  trunk:
+    - Fakery
+    - InputBarAccessoryView
+    - MessageKit
+
+SPEC CHECKSUMS:
+  Fakery: a90caff00ca5cacde6c161c3eafc72314a03d34d
+  InputBarAccessoryView: 1f75d8c9f75e5e57f3ffac36ed58635a8005e0bc
+  MessageKit: d153fbbbcb12f3f4045a1ba8874298924dacfb62
+
+PODFILE CHECKSUM: 516df11508d35cffb1dc7a0d107a9670bdc6b3d7
+
+COCOAPODS: 1.10.2

@@ -27,7 +27,6 @@
 /// THE SOFTWARE.
 
 import MessageKit
-import MessageInputBar
 import MessageUI
 
 struct Message: MessageType {
