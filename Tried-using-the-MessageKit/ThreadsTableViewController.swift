@@ -23,6 +23,10 @@ class ThreadsTableViewController: UITableViewController {
 	override func tableView(_ tableView: UITableView,
 				   didSelectRowAt indexPath: IndexPath) {
 		print("Table view at row selected index path \(indexPath)")
+		let user = User.init(name: "Mr. \(indexPath)")
+		let directMessagesViewController = DirectMessagesViewController(user: user)
+		self.navigationController?.pushViewController(directMessagesViewController,
+													  animated: true)
 	}
 	
 	// MARK: - UITableViewDataSource
